@@ -1,0 +1,155 @@
+.navbar{
+	background-color: #2d9dbd;
+}
+
+.navbar img{
+	width: 30px;
+}
+.navbar a{
+	color:white;
+}
+.dropdown-menu a{
+	color: black;
+}
+
+.navbar a:hover{
+	color:blue;
+}
+
+.text-costum{
+	color: orange !important;
+}
+
+input{
+	margin-bottom: 20px;
+}
+
+.jumbotron{
+	
+	background-color: #2d9dbd;
+	clip-path: polygon(0 0, 100% 0, 100% 89%, 81% 100%, 21% 91%, 0 100%);
+	border-radius: 0px !important;
+}
+
+.blink{
+	color: green;
+	animation-name: color;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes color{
+	50%{
+		color: red;
+	}
+	100%{
+		color: green;
+	}
+}
+
+.jumbotron{
+	color: white;
+}
+
+.jumbotron .row{
+	display: flex;
+	justify-content: space-around;
+}
+.jumbotron .row #div1{
+	width: 600px;
+}
+.jumbotron .row #div2{
+	width: 350px;
+}
+
+#changetext::after{
+	content: "";
+	animation-name: contentani;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+}
+@keyframes contentani{
+
+	20%{
+	content: "Shirt";	
+	color: red;	
+	}
+	40%{
+	content: "Pant";
+	color:blue;
+	}
+	60%{
+	content: "Shose";
+	color:green;
+	}
+	80%{
+	content: "ferniture";
+	color:yellow;
+	}
+	100%{
+	content: "Bags";
+	color:orange;
+	}
+}
+
+#rating span, #product span, #about span, #slider span, #contact span{
+	color: #2d9dbd;
+}
+
+#rating hr, #product hr, #about hr, #slider hr, #contact hr{
+	width: 250px;
+	border: 1px solid red;
+}
+
+#rating img{
+	width: 50px;
+}
+
+#rating .card-footer{
+	font-family: "Grechen Fuemen", serif;
+  font-weight: 400;
+  font-style: normal;
+	color: white;
+	background-color: #2d9dbd;
+}
+#rating i, #product i{
+	color:orange;
+}
+#price{
+	font-size: 20px;
+	color: black !important;
+}
+
+#product .card{
+	border-radius: 20px;
+}
+
+#addicon img{
+	width: 30px;
+}
+
+#overly{
+	display: none;
+	width: 50px;
+	position: absolute;
+	top:2px;
+}
+
+#overly img{
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: orange;
+}
+
+.card:hover #overly{
+	display: inline;
+	left: 2px;
+	padding-top: 2px;
+}
+.shose img{
+	width: 150px;
+}
+
+#contact i{
+	color: red;
+}
